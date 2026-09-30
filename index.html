@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · SnapMind</title>
+  <meta name="description" content="Privacy Policy for the SnapMind Android app. Screenshot text is indexed on your phone and is not uploaded to SnapMind.">
+  <style>
+    :root {
+      --bg: #f4efe6;
+      --ink: #1c1612;
+      --muted: #7a7168;
+      --line: #e4dcd0;
+      --card: #fffbf6;
+      --accent: #e25b3a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      background: linear-gradient(180deg, #f8f3ec 0%, var(--bg) 32%, #efe6d8 100%);
+      color: var(--ink);
+      line-height: 1.65;
+    }
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 3rem 1.25rem 4rem;
+    }
+    header {
+      margin-bottom: 2rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--line);
+    }
+    .brand {
+      font-size: 0.8rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-family: system-ui, -apple-system, sans-serif;
+      font-weight: 600;
+      margin: 0 0 0.5rem;
+    }
+    h1 {
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+      line-height: 1.15;
+      margin: 0 0 0.75rem;
+      font-weight: 600;
+    }
+    .meta {
+      color: var(--muted);
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 0.92rem;
+      margin: 0;
+    }
+    h2 {
+      font-size: 1.2rem;
+      margin: 2rem 0 0.65rem;
+      font-weight: 600;
+    }
+    p, li { font-size: 1.02rem; }
+    ul { padding-left: 1.2rem; }
+    li { margin: 0.35rem 0; }
+    a { color: var(--accent); }
+    code { font-size: 0.92em; }
+    .note {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1rem 1.1rem;
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 0.88rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="brand">SnapMind</p>
+      <h1>Privacy Policy</h1>
+      <p class="meta">
+        Effective date: 30 September 2026<br>
+        App: SnapMind (package <code>app.snapmind</code>)<br>
+        Publisher: Thanapat Wongchalermthan
+      </p>
+    </header>
+
+    <p class="note">
+      SnapMind reads screenshots you allow, on your phone, so you can search the words on them.
+      It does not upload those screenshots, require an account, or send the text to a SnapMind server.
+    </p>
+
+    <p>
+      This Privacy Policy describes how Thanapat Wongchalermthan (“we”, “us”) handles information
+      in the Android app SnapMind. It applies only to this app.
+    </p>
+
+    <h2>1. Who we are</h2>
+    <p>
+      SnapMind is a private index for screenshots already on your phone. It files each screenshot
+      and lets you search the words in the image. For privacy questions, contact
+      <a href="mailto:pat23.w@gmail.com">pat23.w@gmail.com</a>.
+    </p>
+
+    <h2>2. Information stored on your device</h2>
+    <p>
+      SnapMind does not operate a cloud account. The search index is stored only in the app’s
+      private storage on this phone. The screenshot files stay in your gallery (Android MediaStore)
+      or at the location you picked. SnapMind keeps a reference to each image so it can show it
+      again. It does not copy a second photo library.
+    </p>
+    <p>For a screenshot you allow the app to read, the local index can include:</p>
+    <ul>
+      <li>A reference to the image (its content address and file name) and when it was added</li>
+      <li>Text recognized on the image, used for search</li>
+      <li>A category, title, amount, date, and place read from that text</li>
+      <li>The contents of a QR code or barcode, when one is present</li>
+      <li>Whether you marked the screenshot as a wishlist item</li>
+      <li>The status of on-device categorization described in section 4</li>
+    </ul>
+    <p>
+      Password, passcode, and one-time-code screens are treated as private. SnapMind stores a
+      hidden placeholder instead of the text on those screens. That text is not written into
+      the database and is not searchable.
+    </p>
+
+    <h2>3. Information we do not collect ourselves</h2>
+    <p>
+      We do not run a backend that receives your screenshots, recognized text, categories,
+      amounts, QR contents, or wishlist marks. We do not sell your personal information.
+      There is no SnapMind account. The app does not include our own advertising or analytics SDK.
+    </p>
+    <p>
+      Installing SnapMind from Google Play is a transaction with Google. Google’s own privacy
+      policy applies to your Play account, purchases, and store activity. That is separate from
+      the index SnapMind keeps on your phone.
+    </p>
+
+    <h2>4. Processing on your phone</h2>
+    <p>
+      SnapMind reads text and barcodes on the device. Category, title, amount, date, and place
+      are filled in on the device from that text.
+    </p>
+    <p>
+      On a phone that already includes Gemini Nano, SnapMind may ask that on-device model once
+      to suggest a category when the built-in rules do not recognize the screenshot. The text
+      used for that step stays on the phone. SnapMind does not send it to a SnapMind server or
+      to a cloud AI service. A phone without that model still keeps a searchable record.
+    </p>
+    <p>
+      A QR or barcode payload is saved in the local index. It opens in another app only after
+      you confirm. The app you open then handles that link under its own policy.
+    </p>
+
+    <h2>5. Permissions</h2>
+    <p>Depending on your Android version and what you allow, SnapMind may request:</p>
+    <ul>
+      <li><strong>Photos</strong> (<code>READ_MEDIA_IMAGES</code> on Android 13 and newer) so it can watch your Screenshots folder and index new screenshots</li>
+      <li>On Android 12 and below, <strong>storage</strong> (<code>READ_EXTERNAL_STORAGE</code>) for the same purpose</li>
+      <li><strong>Notifications</strong> (<code>POST_NOTIFICATIONS</code>) so a reminder you set can appear</li>
+    </ul>
+    <p>
+      Broad photo access is used to index new screenshots as you take them. The system photo
+      picker selects images once and cannot watch the Screenshots folder. If you decline broad
+      access, you can pick individual screenshots instead, and SnapMind indexes only those.
+      You can revoke photo or notification access in Android settings.
+    </p>
+    <p>
+      SnapMind does not request internet access in order to build this index.
+    </p>
+
+    <h2>6. Reminders</h2>
+    <p>
+      If a flight or ticket screenshot has a clear future date, you can tap “Remind me a day before.”
+      The reminder is scheduled on this phone. The notification shows the screenshot title.
+      SnapMind does not send that reminder through a server. Nothing is scheduled until you tap.
+    </p>
+
+    <h2>7. Device backups</h2>
+    <p>
+      If Android backup is enabled on your device, Android may include this app’s private
+      database in a device backup. That backup is controlled by your device and your Google
+      account backup settings. SnapMind does not run its own cloud copy of the index.
+      Hidden sign-in text is not in the database, so it is not part of that backup.
+    </p>
+    <p>
+      Screenshots in your gallery follow your device’s photo backup settings, which are outside
+      this app.
+    </p>
+
+    <h2>8. Data retention and deletion</h2>
+    <p>
+      The local index remains on your device until you clear the app’s storage in Android
+      settings or uninstall the app. Uninstalling removes the index from the device, unless a
+      device backup you keep still holds a copy. Screenshots stay in your gallery until you
+      delete them there.
+    </p>
+    <p>
+      Because we do not hold a copy of your screenshots or index on our servers, there is no
+      SnapMind-side dataset to delete. For questions, email
+      <a href="mailto:pat23.w@gmail.com">pat23.w@gmail.com</a>.
+    </p>
+
+    <h2>9. Children’s privacy</h2>
+    <p>
+      SnapMind is not directed at children under 13 (or the minimum age required in your
+      country). We do not knowingly collect personal information from children through a server,
+      because the app does not send the index to us.
+    </p>
+
+    <h2>10. International users</h2>
+    <p>
+      The index is created and kept on your phone. We do not transfer your screenshot text to
+      our own servers in any country. Device backup, if you turn it on, is handled by Google
+      under Google’s privacy policy.
+    </p>
+
+    <h2>11. Changes to this policy</h2>
+    <p>
+      We may update this Privacy Policy when the app’s practices change. The effective date
+      at the top will be revised when we do. The current version is published at
+      <a href="https://immrpat.github.io/snapmind-privacy-policy/">https://immrpat.github.io/snapmind-privacy-policy/</a>.
+    </p>
+
+    <h2>12. Contact</h2>
+    <p>
+      Privacy questions about SnapMind:<br>
+      Email: <a href="mailto:pat23.w@gmail.com">pat23.w@gmail.com</a><br>
+      Publisher: Thanapat Wongchalermthan<br>
+      App: SnapMind for Android (<code>app.snapmind</code>)
+    </p>
+
+    <footer>
+      © 2026 Thanapat Wongchalermthan · SnapMind Privacy Policy
+    </footer>
+  </main>
+</body>
+</html>
