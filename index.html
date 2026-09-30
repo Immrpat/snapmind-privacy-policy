@@ -89,6 +89,7 @@
       <h1>Privacy Policy</h1>
       <p class="meta">
         Effective date: 30 September 2026<br>
+        Last updated: 30 September 2026<br>
         App: SnapMind (package <code>app.snapmind</code>)<br>
         Publisher: Thanapat Wongchalermthan
       </p>
@@ -96,7 +97,8 @@
 
     <p class="note">
       SnapMind reads screenshots you allow, on your phone, so you can search the words on them.
-      It does not upload those screenshots, require an account, or send the text to a SnapMind server.
+      That text stays on your phone. The home screen shows a Google banner ad. The ad uses
+      advertising data, not the words from your screenshots.
     </p>
 
     <p>
@@ -136,8 +138,8 @@
     <h2>3. Information we do not collect ourselves</h2>
     <p>
       We do not run a backend that receives your screenshots, recognized text, categories,
-      amounts, QR contents, or wishlist marks. We do not sell your personal information.
-      There is no SnapMind account. The app does not include our own advertising or analytics SDK.
+      amounts, QR contents, or wishlist marks. We do not sell that information.
+      There is no SnapMind account. Screenshot text is not part of the ad request.
     </p>
     <p>
       Installing SnapMind from Google Play is a transaction with Google. Google’s own privacy
@@ -174,8 +176,13 @@
       access, you can pick individual screenshots instead, and SnapMind indexes only those.
       You can revoke photo or notification access in Android settings.
     </p>
+    <p>The app also uses:</p>
+    <ul>
+      <li><strong>Internet</strong> and <strong>network state</strong>, so the home-screen banner can load</li>
+      <li><strong>Advertising ID</strong>, used by Google’s advertising libraries</li>
+    </ul>
     <p>
-      SnapMind does not request internet access in order to build this index.
+      Indexing a screenshot does not need a network connection. The banner does.
     </p>
 
     <h2>6. Reminders</h2>
@@ -185,19 +192,39 @@
       SnapMind does not send that reminder through a server. Nothing is scheduled until you tap.
     </p>
 
-    <h2>7. Device backups</h2>
+    <h2>7. Advertising</h2>
     <p>
-      If Android backup is enabled on your device, Android may include this app’s private
-      database in a device backup. That backup is controlled by your device and your Google
-      account backup settings. SnapMind does not run its own cloud copy of the index.
-      Hidden sign-in text is not in the database, so it is not part of that backup.
+      SnapMind shows one banner ad on the home screen, served by Google AdMob. Google and its
+      advertising partners may collect and use:
+    </p>
+    <ul>
+      <li>Advertising ID and other device or app identifiers</li>
+      <li>IP address, which can be used to estimate approximate location</li>
+      <li>App interactions such as opening the app and taps related to the ad</li>
+      <li>Diagnostic information about the ad SDK, such as performance and stability</li>
+    </ul>
+    <p>
+      This is used for advertising, measurement, and fraud prevention. It is handled by Google
+      under <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a> and
+      <a href="https://support.google.com/admob/answer/6128543">AdMob &amp; privacy</a>.
+      You can delete or reset your advertising ID in Android settings, under Privacy and then Ads.
+    </p>
+    <p>
+      The words, amounts, and QR contents read from your screenshots are not sent with the ad request.
+    </p>
+
+    <h2>8. Device backups</h2>
+    <p>
+      Android backup and device-to-device transfer are turned off for SnapMind’s private storage.
+      The index is not copied to Google Drive by this app. Hidden sign-in text is not written
+      into the index at all.
     </p>
     <p>
       Screenshots in your gallery follow your device’s photo backup settings, which are outside
       this app.
     </p>
 
-    <h2>8. Data retention and deletion</h2>
+    <h2>9. Data retention and deletion</h2>
     <p>
       The local index remains on your device until you clear the app’s storage in Android
       settings or uninstall the app. Uninstalling removes the index from the device, unless a
@@ -206,32 +233,34 @@
     </p>
     <p>
       Because we do not hold a copy of your screenshots or index on our servers, there is no
-      SnapMind-side dataset to delete. For questions, email
+      SnapMind-side dataset to delete. To ask about data, email
       <a href="mailto:pat23.w@gmail.com">pat23.w@gmail.com</a>.
+      Advertising data held by Google is covered by Google’s policy. Deleting your advertising
+      ID in Android settings stops that identifier from being used going forward.
     </p>
 
-    <h2>9. Children’s privacy</h2>
+    <h2>10. Children’s privacy</h2>
     <p>
       SnapMind is not directed at children under 13 (or the minimum age required in your
-      country). We do not knowingly collect personal information from children through a server,
-      because the app does not send the index to us.
+      country). The banner is not a child-directed ad. We do not knowingly collect personal
+      information from children through a SnapMind server.
     </p>
 
-    <h2>10. International users</h2>
+    <h2>11. International users</h2>
     <p>
-      The index is created and kept on your phone. We do not transfer your screenshot text to
-      our own servers in any country. Device backup, if you turn it on, is handled by Google
+      The screenshot index is created and kept on your phone. We do not transfer that text to
+      our own servers. Google may process advertising data on servers outside your country,
       under Google’s privacy policy.
     </p>
 
-    <h2>11. Changes to this policy</h2>
+    <h2>12. Changes to this policy</h2>
     <p>
       We may update this Privacy Policy when the app’s practices change. The effective date
       at the top will be revised when we do. The current version is published at
       <a href="https://immrpat.github.io/snapmind-privacy-policy/">https://immrpat.github.io/snapmind-privacy-policy/</a>.
     </p>
 
-    <h2>12. Contact</h2>
+    <h2>13. Contact</h2>
     <p>
       Privacy questions about SnapMind:<br>
       Email: <a href="mailto:pat23.w@gmail.com">pat23.w@gmail.com</a><br>
